@@ -1,0 +1,1083 @@
+@media (min-width:1200px) {
+    
+span {
+    font-family: iran-sans;
+}
+
+.new-col {
+    width: inherit;
+    box-sizing: border-box;
+    padding-top: 50px;
+    height: 500px;
+    background-color: black;
+    background-image: url(../image/new\ collection.png);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-up>span {
+    font-family: iran-sans;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.new-up {
+    margin-bottom: 5px;
+
+}
+
+.new-down>div {
+    width: 22%;
+    height: 70%;
+    background-color: white;
+    /* margin-right: 205px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.new-down>div:hover .tshirt-down-right {
+    background-color: #86c3dd;
+}
+
+.new-down>div:hover .tshirt-down-left {
+    background-color: #378cc4;
+}
+
+
+.tshirt-up {
+    width: 100%;
+    background-color: white;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-image: url(../image/download.jfif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding:5px; */
+
+}
+
+.tshirt-up>img {
+    width: 100%;
+    height: 100%;
+}
+
+.tshirt-down {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.tshirt-down-right {
+    background-color: #948a85;
+    transition: all linear 300ms;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tshirt-down-right>span,
+.tshirt-down-left>span {
+    color: white;
+}
+
+.tshirt-down-left {
+    background-color: #35312e;
+    transition: all linear 300ms;
+    width: 81%;
+    /* text-align: center; */
+    padding-left: 10px;
+    padding-top: 6px;
+}
+
+.new-down {
+    width: 85%;
+    box-sizing: border-box;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 88%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sale {
+    /* width: 100%; */
+    height: 170px;
+    background-color: #378cc4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.sale>span:nth-of-type(1) {
+    font-family: iran-sans;
+    font-size: 38px;
+    color: white;
+
+}
+
+.sale>span:nth-of-type(2) {
+    font-family: iran-sans;
+    font-size: 25px;
+    color: white;
+}
+
+.icone {
+    width: 93%;
+    height: 93%;
+    /* padding: 5px; */
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    /* padding: 5px; */
+    /* margin: 15px ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 11px;
+    /* visibility: hidden; */
+    transition: all linear 350ms;
+}
+
+.icone-up {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icone-up>a>i {
+    font-size: 30px;
+    margin-right: 10px;
+    width: 85%;
+    text-align: center;
+    color: white;
+    visibility: hidden;
+    border: solid 1px white;
+    transition: all linear 300ms;
+}
+
+.icone-up>a>i:hover {
+    background-color: #378cc4;
+}
+
+.icone-down {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    background-color: #35312e;
+    visibility: hidden;
+}
+
+.icone-down>a>span {
+    font-size: 20px;
+    color: white;
+    visibility: hidden;
+}
+
+.icone-down>a>i {
+    font-size: 30px;
+    visibility: hidden;
+    color: white;
+}
+
+.icone-down>a {
+    text-decoration: none;
+}
+
+.new-down>div:hover .icone {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.new-down>div:hover #ho {
+    visibility: visible;
+}
+}
+
+@media (min-width:990px) and (max-width:1200px) {
+    
+span {
+    font-family: iran-sans;
+}
+
+.new-col {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 50px;
+    height: 500px;
+    background-color: black;
+    background-image: url(../image/new\ collection.png);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-up>span {
+    font-family: iran-sans;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.new-up {
+    margin-bottom: 5px;
+
+}
+
+.new-down>div {
+    width: 23%;
+    height: 70%;
+    background-color: white;
+    /* margin-right: 205px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.new-down>div:hover .tshirt-down-right {
+    background-color: #86c3dd;
+}
+
+.new-down>div:hover .tshirt-down-left {
+    background-color: #378cc4;
+}
+
+
+.tshirt-up {
+    width: 100%;
+    background-color: white;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-image: url(../image/download.jfif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding:5px; */
+
+}
+
+.tshirt-up>img {
+    width: 100%;
+    height: 100%;
+}
+
+.tshirt-down {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.tshirt-down-right {
+    background-color: #948a85;
+    transition: all linear 300ms;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tshirt-down-right>span,
+.tshirt-down-left>span {
+    color: white;
+}
+
+.tshirt-down-left {
+    background-color: #35312e;
+    transition: all linear 300ms;
+    width: 81%;
+    /* text-align: center; */
+    padding-left: 10px;
+    padding-top: 6px;
+}
+
+.new-down {
+    width: 90%;
+    box-sizing: border-box;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 88%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sale {
+    width: 100%;
+    height: 170px;
+    background-color: #378cc4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.sale>span:nth-of-type(1) {
+    font-family: iran-sans;
+    font-size: 38px;
+    color: white;
+
+}
+
+.sale>span:nth-of-type(2) {
+    font-family: iran-sans;
+    font-size: 25px;
+    color: white;
+}
+
+.icone {
+    width: 93%;
+    height: 93%;
+    /* padding: 5px; */
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    /* padding: 5px; */
+    /* margin: 15px ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 11px;
+    /* visibility: hidden; */
+    transition: all linear 350ms;
+}
+
+.icone-up {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icone-up>a>i {
+    font-size: 30px;
+    margin-right: 10px;
+    width: 85%;
+    text-align: center;
+    color: white;
+    visibility: hidden;
+    border: solid 1px white;
+    transition: all linear 300ms;
+}
+
+.icone-up>a>i:hover {
+    background-color: #378cc4;
+}
+
+.icone-down {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    background-color: #35312e;
+    visibility: hidden;
+}
+
+.icone-down>a>span {
+    font-size: 20px;
+    color: white;
+    visibility: hidden;
+}
+
+.icone-down>a>i {
+    font-size: 30px;
+    visibility: hidden;
+    color: white;
+}
+
+.icone-down>a {
+    text-decoration: none;
+}
+
+.new-down>div:hover .icone {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.new-down>div:hover #ho {
+    visibility: visible;
+}
+}
+
+@media (min-width:768px) and (max-width:990px) {
+     
+span {
+    font-family: iran-sans;
+}
+
+.new-col {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 50px;
+    height: 500px;
+    background-color: black;
+    background-image: url(../image/new\ collection.png);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-up>span {
+    font-family: iran-sans;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.new-up {
+    margin-bottom: 5px;
+
+}
+
+.new-down>div {
+    width: 23%;
+    height: 70%;
+    background-color: white;
+    /* margin-right: 205px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.new-down>div:hover .tshirt-down-right {
+    background-color: #86c3dd;
+}
+
+.new-down>div:hover .tshirt-down-left {
+    background-color: #378cc4;
+}
+
+
+.tshirt-up {
+    width: 100%;
+    background-color: white;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-image: url(../image/download.jfif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding:5px; */
+
+}
+
+.tshirt-up>img {
+    width: 100%;
+    height: 100%;
+}
+
+.tshirt-down {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.tshirt-down-right {
+    background-color: #948a85;
+    transition: all linear 300ms;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tshirt-down-right>span,
+.tshirt-down-left>span {
+    color: white;
+    font-size: 14px;
+}
+
+.tshirt-down-left {
+    background-color: #35312e;
+    transition: all linear 300ms;
+    width: 81%;
+    /* text-align: center; */
+    padding-left: 5px;
+    padding-top: 6px;
+}
+
+.new-down {
+    width: 93%;
+    box-sizing: border-box;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 88%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sale {
+    width: 100%;
+    height: 170px;
+    background-color: #378cc4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.sale>span:nth-of-type(1) {
+    font-family: iran-sans;
+    font-size: 38px;
+    color: white;
+
+}
+
+.sale>span:nth-of-type(2) {
+    font-family: iran-sans;
+    font-size: 25px;
+    color: white;
+}
+
+.icone {
+    width: 93%;
+    height: 93%;
+    /* padding: 5px; */
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    /* padding: 5px; */
+    /* margin: 15px ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 11px;
+    /* visibility: hidden; */
+    transition: all linear 350ms;
+}
+
+.icone-up {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icone-up>a>i {
+    font-size: 30px;
+    margin-right: 10px;
+    width: 85%;
+    text-align: center;
+    color: white;
+    visibility: hidden;
+    border: solid 1px white;
+    transition: all linear 300ms;
+}
+
+.icone-up>a>i:hover {
+    background-color: #378cc4;
+}
+
+.icone-down {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    background-color: #35312e;
+    visibility: hidden;
+}
+
+.icone-down>a>span {
+    font-size: 20px;
+    color: white;
+    visibility: hidden;
+}
+
+.icone-down>a>i {
+    font-size: 30px;
+    visibility: hidden;
+    color: white;
+}
+
+.icone-down>a {
+    text-decoration: none;
+}
+
+.new-down>div:hover .icone {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.new-down>div:hover #ho {
+    visibility: visible;
+}
+}
+
+@media (min-width:560px) and (max-width:768px) {
+   
+    span {
+        font-family: iran-sans;
+    }
+    
+    .new-col {
+        width: 100%;
+        box-sizing: border-box;
+        padding-top: 20px;
+        height: 650px;
+        background-color: black;
+        background-image: url(../image/new\ collection.png);
+        background-color: rgba(0, 0, 0, 0.7);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .new-up>span {
+        font-family: iran-sans;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .new-up {
+        margin-bottom: 15px;
+    
+    }
+    
+    .new-down>div {
+        width: 47%;
+        height: 70%;
+        background-color: white;
+        /* margin-right: 205px; */
+        display: flex;
+        margin-bottom: 20px;
+        flex-direction: column ;
+      
+        justify-content: space-between;
+    
+    }
+    
+    .new-down>div:hover .tshirt-down-right {
+        background-color: #86c3dd;
+    }
+    
+    .new-down>div:hover .tshirt-down-left {
+        background-color: #378cc4;
+    }
+    
+    
+    .tshirt-up {
+        width: 100%;
+        background-color: white;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background-image: url(../image/download.jfif); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* padding:5px; */
+    
+    }
+    
+    .tshirt-up>img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .tshirt-down {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    
+    .tshirt-down-right {
+        background-color: #948a85;
+        transition: all linear 300ms;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .tshirt-down-right>span,
+    .tshirt-down-left>span {
+        color: white;
+        font-size: 12px;
+    }
+    
+    .tshirt-down-left {
+        background-color: #35312e;
+        transition: all linear 300ms;
+        width: 81%;
+        /* text-align: center; */
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    
+    .new-down {
+        width: 70%;
+        box-sizing: border-box;
+        padding-right: 10px;
+        padding-left: 10px;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .sale {
+        width: 100%;
+        height: 170px;
+        background-color: #378cc4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    
+    .sale>span:nth-of-type(1) {
+        font-family: iran-sans;
+        font-size: 38px;
+        color: white;
+    
+    }
+    
+    .sale>span:nth-of-type(2) {
+        font-family: iran-sans;
+        font-size: 25px;
+        color: white;
+    }
+    
+    .icone {
+        width: 93%;
+        height: 93%;
+        /* padding: 5px; */
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0);
+        /* padding: 5px; */
+        /* margin: 15px ; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 11px;
+        /* visibility: hidden; */
+        transition: all linear 350ms;
+    }
+    
+    .icone-up {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .icone-up>a>i {
+        font-size: 30px;
+        margin-right: 10px;
+        width: 85%;
+        text-align: center;
+        color: white;
+        visibility: hidden;
+        border: solid 1px white;
+        transition: all linear 300ms;
+    }
+    
+    .icone-up>a>i:hover {
+        background-color: #378cc4;
+    }
+    
+    .icone-down {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px white;
+        background-color: #35312e;
+        visibility: hidden;
+    }
+    
+    .icone-down>a>span {
+        font-size: 20px;
+        color: white;
+        visibility: hidden;
+    }
+    
+    .icone-down>a>i {
+        font-size: 30px;
+        visibility: hidden;
+        color: white;
+    }
+    
+    .icone-down>a {
+        text-decoration: none;
+    }
+    
+    .new-down>div:hover .icone {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    
+    .new-down>div:hover #ho {
+        visibility: visible;
+    }
+}
+
+@media (min-width:0px) and (max-width:560px) {
+ 
+    span {
+        font-family: iran-sans;
+    }
+    
+    .new-col {
+        width: 100%;
+        box-sizing: border-box;
+        padding-top: 20px;
+        height: 650px;
+        background-color: black;
+        background-image: url(../image/new\ collection.png);
+        background-color: rgba(0, 0, 0, 0.7);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .new-up>span {
+        font-family: iran-sans;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .new-up {
+        margin-bottom: 15px;
+    
+    }
+    
+    .new-down>div {
+        width: 47%;
+        height: 70%;
+        background-color: white;
+        /* margin-right: 205px; */
+        display: flex;
+        margin-bottom: 20px;
+        flex-direction: column ;
+      
+        justify-content: space-between;
+    
+    }
+    
+    .new-down>div:hover .tshirt-down-right {
+        background-color: #86c3dd;
+    }
+    
+    .new-down>div:hover .tshirt-down-left {
+        background-color: #378cc4;
+    }
+    
+    
+    .tshirt-up {
+        width: 100%;
+        background-color: white;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background-image: url(../image/download.jfif); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* padding:5px; */
+    
+    }
+    
+    .tshirt-up>img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .tshirt-down {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    
+    .tshirt-down-right {
+        background-color: #948a85;
+        transition: all linear 300ms;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .tshirt-down-right>span,
+    .tshirt-down-left>span {
+        color: white;
+        font-size: 12px;
+    }
+    
+    .tshirt-down-left {
+        background-color: #35312e;
+        transition: all linear 300ms;
+        width: 81%;
+        /* text-align: center; */
+        padding-left: 5px;
+        padding-top: 4px;
+    }
+    
+    .new-down {
+        width: 83%;
+        box-sizing: border-box;
+        padding-right: 10px;
+        padding-left: 10px;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .sale {
+        width: 100%;
+        height: 170px;
+        background-color: #378cc4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    
+    .sale>span:nth-of-type(1) {
+        font-family: iran-sans;
+        font-size: 38px;
+        color: white;
+    
+    }
+    
+    .sale>span:nth-of-type(2) {
+        font-family: iran-sans;
+        font-size: 25px;
+        color: white;
+    }
+    
+    .icone {
+        width: 93%;
+        height: 93%;
+        /* padding: 5px; */
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0);
+        /* padding: 5px; */
+        /* margin: 15px ; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 11px;
+        /* visibility: hidden; */
+        transition: all linear 350ms;
+    }
+    
+    .icone-up {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .icone-up>a>i {
+        font-size: 30px;
+        margin-right: 10px;
+        width: 85%;
+        text-align: center;
+        color: white;
+        visibility: hidden;
+        border: solid 1px white;
+        transition: all linear 300ms;
+    }
+    
+    .icone-up>a>i:hover {
+        background-color: #378cc4;
+    }
+    
+    .icone-down {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px white;
+        background-color: #35312e;
+        visibility: hidden;
+    }
+    
+    .icone-down>a>span {
+        font-size: 20px;
+        color: white;
+        visibility: hidden;
+    }
+    
+    .icone-down>a>i {
+        font-size: 30px;
+        visibility: hidden;
+        color: white;
+    }
+    
+    .icone-down>a {
+        text-decoration: none;
+    }
+    
+    .new-down>div:hover .icone {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    
+    .new-down>div:hover #ho {
+        visibility: visible;
+    }
+}
