@@ -1,2 +1,2 @@
 # shop
-a simple shopping website
+it is final project of a course 
